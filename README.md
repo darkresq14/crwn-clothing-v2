@@ -5,12 +5,15 @@
 > Date: 23.04.2022  
 
 ## React Capstone Project
+> ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
+> Instructors: Andrei Neagoie, Yihua Zhang  
+
 Real e-comerce website with firebase login and stripe payments
 
 ## Facts
 - SASS (npm add sass)
 
-## Versions used
+## Technologies used
 
 | App           | Version |
 | ------------- | ------- |
