@@ -1,8 +1,8 @@
-# CRWN Clothing v2
+# Crwn Clothing v2
 ### https://darkresq14.github.io/crwn-clothing-v2/
 
 > Author: Razvan Bielz  
-> Date: 23.04.2022  
+> Date: 23.04.2022 - present
 
 ## React Capstone Project
 > ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
@@ -12,7 +12,11 @@ Real e-comerce website with firebase login and stripe payments
 
 ## Facts
 - SASS
-- React Router v6 - Browser Router
+- React Router v6 
+  - Browser Router
+- Firebase v9 - crwn-clothing-db
+  - Authentication - Google Popup, 
+  - Firestore Database
 
 ## Technologies used
 
@@ -27,3 +31,4 @@ Real e-comerce website with firebase login and stripe payments
 | gh-pages         | 3.2.3   |
 | sass             | 1.50.1  |
 | react-router-dom | 6.3.0   |
+| firebase         | 9.6.11  |
