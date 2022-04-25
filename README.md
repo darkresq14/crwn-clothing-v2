@@ -8,7 +8,7 @@
 > ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
 > Instructors: Andrei Neagoie, Yihua Zhang  
 
-Real e-comerce website with firebase login and stripe payments
+Massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full stack app (MERN stack), using Firebase.
 
 ## Facts
 - SASS
