@@ -14,8 +14,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - SASS
 - React Router v6 
   - Browser Router
-- Firebase v9 - crwn-clothing-db
-  - Authentication - Google Popup, 
+- Firebase v9
+  - Authentication
   - Firestore Database
 
 ## Technologies used
