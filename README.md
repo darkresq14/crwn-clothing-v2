@@ -11,17 +11,19 @@
 Real e-comerce website with firebase login and stripe payments
 
 ## Facts
-- SASS (npm add sass)
+- SASS
+- React Router v6 - Browser Router
 
 ## Technologies used
 
-| App           | Version |
-| ------------- | ------- |
-| nvm           | 1.1.9   |
-| node          | 18.0.0  |
-| npm           | 8.6.0   |
-| yarn          | 1.22.18 |
-| react         | 18.0.0  |
-| react-scripts | 5.0.1   |
-| gh-pages      | 3.2.3   |
-| sass          | 1.50.1  |
+| App              | Version |
+| ---------------- | ------- |
+| nvm              | 1.1.9   |
+| node             | 18.0.0  |
+| npm              | 8.6.0   |
+| yarn             | 1.22.18 |
+| react            | 18.0.0  |
+| react-scripts    | 5.0.1   |
+| gh-pages         | 3.2.3   |
+| sass             | 1.50.1  |
+| react-router-dom | 6.3.0   |
