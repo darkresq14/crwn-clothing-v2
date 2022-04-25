@@ -17,6 +17,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Firebase v9
   - Authentication
   - Firestore Database
+- User Context with useContext
+- Observer Listener for Authentication
 
 ## Technologies used
 
