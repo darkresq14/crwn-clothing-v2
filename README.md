@@ -4,8 +4,8 @@
 > Date: 23.04.2022 - present
 
 ## React Capstone Project
-#### ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
-#### Instructors: Andrei Neagoie, Yihua Zhang  
+**ZTM (zerotomastery.io) Course:** Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
+**Instructors:** Andrei Neagoie, Yihua Zhang  
 
 Massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full stack app (MERN stack), using Firebase.
 
@@ -21,8 +21,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - useContext for User, Categories and Cart
 - Observer Listener for Authentication
 - Hosted on Netlify [here](https://peppy-maamoul-2f70c4.netlify.app)
-  - Build command: "CI= npm run build"
-  - Added "_redirects" file
+- User & Cart Reducer
+
 
 ## Technologies used
 
