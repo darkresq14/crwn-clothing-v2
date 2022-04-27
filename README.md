@@ -1,12 +1,11 @@
-# Crwn Clothing v2
-### https://darkresq14.github.io/crwn-clothing-v2/
+# [Crwn Clothing v2](https://peppy-maamoul-2f70c4.netlify.app)
 
 > Author: Razvan Bielz  
 > Date: 23.04.2022 - present
 
 ## React Capstone Project
-> ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
-> Instructors: Andrei Neagoie, Yihua Zhang  
+#### ZTM (zerotomastery.io) Course: Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)  
+#### Instructors: Andrei Neagoie, Yihua Zhang  
 
 Massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full stack app (MERN stack), using Firebase.
 
@@ -21,6 +20,9 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - Firestore Database
 - useContext for User, Categories and Cart
 - Observer Listener for Authentication
+- Hosted on Netlify [here](https://peppy-maamoul-2f70c4.netlify.app)
+  - Build command: "CI= npm run build"
+  - Added "_redirects" file
 
 ## Technologies used
 
@@ -32,7 +34,6 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | yarn              | 1.22.18 |
 | react             | 18.0.0  |
 | react-scripts     | 5.0.1   |
-| gh-pages          | 3.2.3   |
 | sass              | 1.50.1  |
 | styled-components | 5.3.5   |
 | react-router-dom  | 6.3.0   |
