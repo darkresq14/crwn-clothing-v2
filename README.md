@@ -18,10 +18,10 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Firebase v9
   - Authentication
   - Firestore Database
-- useContext for User, Categories and Cart
+- useContext for User, Categories and Cart with useState and useEffect - Check Commit "[useContext - before implementing Reducers](https://github.com/darkresq14/crwn-clothing-v2/tree/5b3102e8b66aef7f36442b2d1d5952dd107cfc7b)"
 - Observer Listener for Authentication
 - Hosted on Netlify [here](https://peppy-maamoul-2f70c4.netlify.app)
-- User & Cart Reducer
+- useReducer for User & Cart Context
 
 
 ## Technologies used
