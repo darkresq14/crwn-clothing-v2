@@ -11,7 +11,9 @@
 Massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full stack app (MERN stack), using Firebase.
 
 ## Facts
-- SASS + CSS-in-JS (Styled-Components)
+- SASS
+- CSS-in-JS (Styled-Components)
+  - Navigation, Button, Cart Dropdown, Directory, Cart Icon, Form Input
 - React Router v6 
   - Browser Router
 - Firebase v9
