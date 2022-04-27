@@ -21,7 +21,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - useContext for User, Categories and Cart with useState and useEffect - Check Commit "[useContext - before implementing Reducers](https://github.com/darkresq14/crwn-clothing-v2/tree/5b3102e8b66aef7f36442b2d1d5952dd107cfc7b)"
 - Observer Listener for Authentication
 - Hosted on Netlify [here](https://peppy-maamoul-2f70c4.netlify.app)
-- useReducer for User & Cart Context
+- useReducer for User & Cart Context - Check Commit "[]()"
 
 
 ## Technologies used
