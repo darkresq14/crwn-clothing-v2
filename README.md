@@ -26,6 +26,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Redux-Logger + Self-Created Middleware Logger
 - Redux-Persist for Cart and Categories
 - Redux-Devtools
+- Asynchronous Redux
+  - Redux-Thunk
 
 
 ## Technologies used
@@ -47,3 +49,4 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | redux-logger      | 3.0.6   |
 | reselect          | 4.1.5   |
 | redux-persist     | 6.0.0   |
+| redux-thunk       | 2.4.1   |
