@@ -27,7 +27,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Redux-Persist for Cart and Categories
 - Redux-Devtools
 - Asynchronous Redux
-  - Redux-Thunk
+  - Redux-Thunk - Check Commit "[Implemented Redux-Thunk for categories, Spinner for Loading and unpersisted the categories](https://github.com/darkresq14/crwn-clothing-v2/tree/b3adf060b256939501f7c2e02fdaee00d57bdfc0)"
+  - Redux-Saga - Check Commit
 
 
 ## Technologies used
@@ -50,3 +51,4 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | reselect          | 4.1.5   |
 | redux-persist     | 6.0.0   |
 | redux-thunk       | 2.4.1   |
+| redux-saga        | 1.1.3   |
