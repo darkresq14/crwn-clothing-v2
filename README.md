@@ -22,10 +22,11 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Observer Listener for Authentication
 - Hosted on Netlify [here](https://peppy-maamoul-2f70c4.netlify.app)
 - useReducer for User & Cart Context - Check Commit "[useReducer - before Redux](https://github.com/darkresq14/crwn-clothing-v2/tree/395ac4d0121dd4ea551e8357f776de59850306c9)"
-- Redux
-- React-Redux
-  - Selectors
-- Reselect - categories.selector
+- Redux + React-Redux + Reselect - Check Commit "[Migrated Cart Context to Redux with Reselect](https://github.com/darkresq14/crwn-clothing-v2/tree/c640018c72ef230a8ef5b44766425643128cf1b9)"
+- Redux-Logger + Self-Created Middleware Logger
+- Redux-Persist for Cart and Categories
+- Redux-Devtools
+
 
 ## Technologies used
 
@@ -45,3 +46,4 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | react-redux       | 8.0.1   |
 | redux-logger      | 3.0.6   |
 | reselect          | 4.1.5   |
+| redux-persist     | 6.0.0   |
