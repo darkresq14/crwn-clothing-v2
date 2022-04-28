@@ -7,6 +7,7 @@ import { selectCategoriesMap } from "../../store/categories/categories.selector"
 import "./category.styles.scss";
 
 const Category = () => {
+  // * Takes category name from url name parameter
   const { category } = useParams();
   const categoriesMap = useSelector(selectCategoriesMap);
   const [products, setProducts] = useState(categoriesMap[category]);

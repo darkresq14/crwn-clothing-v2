@@ -10,12 +10,10 @@ import Checkout from "./routes/checkout/checkout.component";
 
 import {
   createUserDocumentFromAuth,
-  getCategoriesAndDocuments,
   onAuthStateChangedListener,
 } from "./utils/firebase/firebase.utils";
 
 import { setCurrentUser } from "./store/user/user.action";
-import { setCategoriesMap } from "./store/categories/categories.action";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -29,15 +27,6 @@ const App = () => {
     });
 
     return unsubscribe;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    const getCategoriesMap = async () => {
-      const categoriesMap = await getCategoriesAndDocuments();
-      dispatch(setCategoriesMap(categoriesMap));
-    };
-    getCategoriesMap();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
