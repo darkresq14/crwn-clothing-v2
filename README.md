@@ -25,6 +25,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Redux
 - React-Redux
   - Selectors
+- Reselect - categories.selector
 
 ## Technologies used
 
@@ -43,3 +44,4 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | redux             | 4.2.0   |
 | react-redux       | 8.0.1   |
 | redux-logger      | 3.0.6   |
+| reselect          | 4.1.5   |
