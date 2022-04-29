@@ -31,9 +31,10 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - Redux-Saga
     - Check Commit "[Converted fetchCategoriesAsync from Thunk to Saga](https://github.com/darkresq14/crwn-clothing-v2/tree/4a2fdcb55608e6604c83039723d253a41a72f676)"
     - Check Commit "[Migrated Check User, Sign In, Sign Up and Sign Out to Sagas](https://github.com/darkresq14/crwn-clothing-v2/tree/3800ddd53822da96c7be0ae2c22340a251a0a388)"
+> :warning: **As of 29.04.2022 Stripe does not yet support React 18. I was forced to downgrade to React 17 at this point**
+- Stripe
 - Serverless Functions
-  > :warning: **As of 29.04.2022 Stripe does not yet support React 18. I was forced to downgrade to React 17 at this point**
-  - Stripe
+  - Netlify - uses AWS Lambda functions
 
 
 ## Technologies used
@@ -62,3 +63,5 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | react-dom               | 17.0.2  |
 | @stripe/react-stripe-js | 1.7.2   |
 | @stripe/stripe-js       | 1.29.0  |
+| stripe                  | 8.219.0 |
+| dotenv                  | 16.0.0  |
