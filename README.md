@@ -30,7 +30,9 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - Redux-Thunk - Check Commit "[Implemented Redux-Thunk for categories, Spinner for Loading and unpersisted the categories](https://github.com/darkresq14/crwn-clothing-v2/tree/b3adf060b256939501f7c2e02fdaee00d57bdfc0)"
   - Redux-Saga
     - Check Commit "[Converted fetchCategoriesAsync from Thunk to Saga](https://github.com/darkresq14/crwn-clothing-v2/tree/4a2fdcb55608e6604c83039723d253a41a72f676)"
-
+    - Check Commit "[Migrated Check User, Sign In, Sign Up and Sign Out to Sagas](https://github.com/darkresq14/crwn-clothing-v2/tree/3800ddd53822da96c7be0ae2c22340a251a0a388)"
+- Serverless Functions
+  - Stripe
 
 ## Technologies used
 
