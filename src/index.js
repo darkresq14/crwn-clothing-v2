@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
@@ -9,8 +9,25 @@ import { PersistGate } from "redux-persist/integration/react";
 import "./index.scss";
 import { persistor, store } from "./store/store";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// * React 18
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <Provider store={store}>
+//       <PersistGate loading={null} persistor={persistor}>
+//         <BrowserRouter>
+//           <App />
+//         </BrowserRouter>
+//       </PersistGate>
+//     </Provider>
+//   </React.StrictMode>
+// );
+
+// * React 17
+const entryPoint = document.getElementById("root");
+ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
@@ -19,7 +36,8 @@ root.render(
         </BrowserRouter>
       </PersistGate>
     </Provider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  entryPoint
 );
 
 // If you want to start measuring performance in your app, pass a function
