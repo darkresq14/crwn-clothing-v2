@@ -36,7 +36,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Serverless Functions
   - Netlify - uses AWS-like Lambda functions
 - Converting to Typescript
-  - Categories
+  - Categories / Cart / Firebase.utils
 
 
 ## Technologies used
