@@ -36,7 +36,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Serverless Functions
   - Netlify - uses AWS-like Lambda functions
 - Converting to Typescript
-  - Categories / Cart / Firebase.utils
+  - Categories, Users, Cart, Firebase
+  - Sagas using typed-redux-saga and babel-plugin-macros
 
 
 ## Technologies used
@@ -73,3 +74,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | @types/node             | 17.0.30 |
 | @types/react            | 18.0.8  |
 | @types/react-dom        | 18.0.3  |
+| @types/redux-logger     | 3.0.9   |
+| typed-redux-saga        | 1.4.0   |
+| babel-plugin-macros     | 3.1.0   |
+
