@@ -34,7 +34,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 > :warning: **As of 29.04.2022 Stripe does not yet support React 18. I was forced to downgrade to React 17 at this point**
 - Stripe
 - Serverless Functions
-  - Netlify - uses AWS Lambda functions
+  - Netlify - uses AWS-like Lambda functions
 
 
 ## Technologies used
