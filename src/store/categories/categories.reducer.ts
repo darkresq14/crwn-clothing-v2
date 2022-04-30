@@ -24,7 +24,7 @@ export const categoriesReducer = (
   // action = {} as CategoryAction
 
   // * Now improved code - replaced the switch
-  action = {} as AnyAction
+  action: AnyAction
 ): CategoriesState => {
   if (fetchCategoriesStart.match(action)) {
     return {
