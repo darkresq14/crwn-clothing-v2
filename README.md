@@ -35,6 +35,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Stripe
 - Serverless Functions
   - Netlify - uses AWS-like Lambda functions
+- Converting to Typescript
+  - Categories
 
 
 ## Technologies used
@@ -58,10 +60,16 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 | redux-persist           | 6.0.0   |
 | redux-thunk             | 2.4.1   |
 | redux-saga              | 1.1.3   |
-| -----------------       | ------- |
+| ----------------------- | ------- |
 | react                   | 17.0.2  |
 | react-dom               | 17.0.2  |
 | @stripe/react-stripe-js | 1.7.2   |
 | @stripe/stripe-js       | 1.29.0  |
 | stripe                  | 8.219.0 |
 | dotenv                  | 16.0.0  |
+| ----------------------- | ------- |
+| typescript              | 4.6.4   |
+| @types/jest             | 27.4.1  |
+| @types/node             | 17.0.30 |
+| @types/react            | 18.0.8  |
+| @types/react-dom        | 18.0.3  |
