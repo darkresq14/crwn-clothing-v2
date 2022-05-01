@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { selectCartTotal } from "../../store/cart/cart.selector";
 import { selectCurrentUser } from "../../store/user/user.selector";
 
-import { FormContainer } from "./payment-form.styles";
+import { FormContainer, Notif } from "./payment-form.styles";
 import { BUTTON_TYPE_CLASSES } from "../button/button.component";
 
 import { PaymentButton, PaymentFormContainer } from "./payment-form.styles";
@@ -70,6 +70,10 @@ const PaymentForm = () => {
       <FormContainer onSubmit={paymentHandler}>
         <h2>Credit Card Payment:</h2>
         <CardElement />
+        <Notif>
+          Use Card number: 4242 4242 4242 4242 and an expiration date in the
+          future.
+        </Notif>
         <PaymentButton
           buttonType={BUTTON_TYPE_CLASSES.inverted}
           isLoading={isProcessingPayment}

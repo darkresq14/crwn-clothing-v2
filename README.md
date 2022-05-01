@@ -37,6 +37,8 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - Netlify - uses AWS-like Lambda functions
 - Converting to Typescript
   - Sagas using typed-redux-saga and babel-plugin-macros
+- GraphQL
+- Apollo Client
 
 
 ## Technologies used
