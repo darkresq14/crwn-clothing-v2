@@ -10,10 +10,9 @@ export const ProductCardCoontainer = styled.div`
   position: relative;
 
   &:hover {
-    img {
+    div {
       opacity: 0.8;
     }
-
     button {
       opacity: 0.85;
       display: flex;

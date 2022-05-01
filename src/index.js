@@ -10,6 +10,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import "./index.scss";
 import { persistor, store } from "./store/store";
 import { stripePromise } from "./utils/stripe/stripe.utils";
+import ScrollToTop from "./utils/helpers/scroll-to-top.utils";
 
 // * React 18
 // import ReactDOM from "react-dom/client";
@@ -35,6 +36,7 @@ ReactDOM.render(
       <PersistGate loading={null} persistor={persistor}>
         <BrowserRouter>
           <Elements stripe={stripePromise}>
+            <ScrollToTop />
             <App />
           </Elements>
         </BrowserRouter>

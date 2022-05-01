@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import ProductCard from "../../components/product-card/product-card.component";
@@ -7,7 +7,11 @@ import {
   selectCategoriesIsLoading,
   selectCategoriesMap,
 } from "../../store/categories/categories.selector";
-import { CategoryContainer, CategoryTitle } from "./category.styles";
+import {
+  CategoryContainer,
+  CategoryTitle,
+  EverythingContainer,
+} from "./category.styles";
 
 type CategoryRouteParams = {
   category: string;
@@ -27,7 +31,7 @@ const Category = () => {
   }, [category, categoriesMap]);
 
   return (
-    <Fragment>
+    <EverythingContainer>
       <CategoryTitle>{category.toUpperCase()}</CategoryTitle>
       {isLoading ? (
         <Spinner />
@@ -39,7 +43,7 @@ const Category = () => {
             ))}
         </CategoryContainer>
       )}
-    </Fragment>
+    </EverythingContainer>
   );
 };
 
