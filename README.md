@@ -37,8 +37,11 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - Netlify - uses AWS-like Lambda functions
 - Converting to Typescript
   - Sagas using typed-redux-saga and babel-plugin-macros
-- GraphQL
-- Apollo Client
+- GraphQL & Apollo Client - "[crwn-clothing-v2-graphql](https://github.com/darkresq14/crwn-clothing-v2-graphql)"
+- Performance Optimizations 
+  - useCallback & useMemo
+  - React Devtools Profiling & React Memo
+  - Code Splitting, Dynamic Imports, Suspense & Lazy
 
 
 ## Technologies used
