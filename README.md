@@ -42,6 +42,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - useCallback & useMemo
   - React Devtools Profiling & React Memo
   - Code Splitting, Dynamic Imports, Suspense & Lazy
+- Mobile Support - Responsive Design
 
 ## Technologies used
 

@@ -1,9 +1,12 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 import { CategoryItem } from "../../store/categories/categories.types";
 import ProductCard from "../product-card/product-card.component";
-
-import "./category-preview.styles.scss";
+import {
+  CategoryPreviewContainer,
+  Preview,
+  Title,
+} from "./category-preview.styles";
 
 type CategoryPreviewProps = {
   title: string;
@@ -12,20 +15,18 @@ type CategoryPreviewProps = {
 
 const CategoryPreview: FC<CategoryPreviewProps> = ({ title, products }) => {
   return (
-    <div className="category-preview-container">
-      <h2>
-        <Link to={title} className="title">
-          {title.toUpperCase()}
-        </Link>
-      </h2>
-      <div className="preview">
+    <CategoryPreviewContainer>
+      <Title>
+        <Link to={title}>{title.toUpperCase()}</Link>
+      </Title>
+      <Preview>
         {products
           .filter((_, idx) => idx < 4)
           .map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
-      </div>
-    </div>
+      </Preview>
+    </CategoryPreviewContainer>
   );
 };
 
