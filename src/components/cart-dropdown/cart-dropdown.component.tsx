@@ -6,12 +6,11 @@ import { selectCartItems } from "../../store/cart/cart.selector";
 import Button from "../button/button.component";
 import CartItem from "../cart-item/cart-item.component";
 
-import "./cart-dropdown.styles.jsx";
 import {
   CartDropdownContainer,
   CartItems,
   EmptyMessage,
-} from "./cart-dropdown.styles.jsx";
+} from "./cart-dropdown.styles";
 
 const CartDropdown = () => {
   const dispatch = useDispatch();
@@ -27,7 +26,7 @@ const CartDropdown = () => {
 
   return (
     <CartDropdownContainer>
-      <CartItems className="cart-items">
+      <CartItems>
         {cartItems.length ? (
           cartItems.map((item) => <CartItem key={item.id} cartItem={item} />)
         ) : (

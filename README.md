@@ -36,45 +36,46 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
 - Serverless Functions
   - Netlify - uses AWS-like Lambda functions
 - Converting to Typescript
-  - Categories, Users, Cart, Firebase
   - Sagas using typed-redux-saga and babel-plugin-macros
 
 
 ## Technologies used
 
-| App                     | Version |
-| ----------------------- | ------- |
-| nvm                     | 1.1.9   |
-| node                    | 18.0.0  |
-| npm                     | 8.6.0   |
-| yarn                    | 1.22.18 |
-| react                   | 18.0.0  |
-| react-scripts           | 5.0.1   |
-| sass                    | 1.50.1  |
-| styled-components       | 5.3.5   |
-| react-router-dom        | 6.3.0   |
-| firebase                | 9.6.11  |
-| redux                   | 4.2.0   |
-| react-redux             | 8.0.1   |
-| redux-logger            | 3.0.6   |
-| reselect                | 4.1.5   |
-| redux-persist           | 6.0.0   |
-| redux-thunk             | 2.4.1   |
-| redux-saga              | 1.1.3   |
-| ----------------------- | ------- |
-| react                   | 17.0.2  |
-| react-dom               | 17.0.2  |
-| @stripe/react-stripe-js | 1.7.2   |
-| @stripe/stripe-js       | 1.29.0  |
-| stripe                  | 8.219.0 |
-| dotenv                  | 16.0.0  |
-| ----------------------- | ------- |
-| typescript              | 4.6.4   |
-| @types/jest             | 27.4.1  |
-| @types/node             | 17.0.30 |
-| @types/react            | 18.0.8  |
-| @types/react-dom        | 18.0.3  |
-| @types/redux-logger     | 3.0.9   |
-| typed-redux-saga        | 1.4.0   |
-| babel-plugin-macros     | 3.1.0   |
+| App                      | Version |
+| ------------------------ | ------- |
+| nvm                      | 1.1.9   |
+| node                     | 18.0.0  |
+| npm                      | 8.6.0   |
+| yarn                     | 1.22.18 |
+| react                    | 18.0.0  |
+| react-scripts            | 5.0.1   |
+| sass                     | 1.50.1  |
+| styled-components        | 5.3.5   |
+| react-router-dom         | 6.3.0   |
+| firebase                 | 9.6.11  |
+| redux                    | 4.2.0   |
+| react-redux              | 8.0.1   |
+| redux-logger             | 3.0.6   |
+| reselect                 | 4.1.5   |
+| redux-persist            | 6.0.0   |
+| redux-thunk              | 2.4.1   |
+| redux-saga               | 1.1.3   |
+| -----------------------  | ------- |
+| react                    | 17.0.2  |
+| react-dom                | 17.0.2  |
+| @stripe/react-stripe-js  | 1.7.2   |
+| @stripe/stripe-js        | 1.29.0  |
+| stripe                   | 8.219.0 |
+| dotenv                   | 16.0.0  |
+| -----------------------  | ------- |
+| typescript               | 4.6.4   |
+| @types/jest              | 27.4.1  |
+| @types/node              | 17.0.30 |
+| @types/react             | 18.0.8  |
+| @types/react-dom         | 18.0.3  |
+| @types/redux-logger      | 3.0.9   |
+| typed-redux-saga         | 1.4.0   |
+| babel-plugin-macros      | 3.1.0   |
+| @types/styled-components | 5.1.25  |
+
 
