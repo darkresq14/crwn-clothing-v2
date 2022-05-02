@@ -43,6 +43,7 @@ Massive e-commerce application similar to Shopify using React, Redux, React Hook
   - React Devtools Profiling & React Memo
   - Code Splitting, Dynamic Imports, Suspense & Lazy
 - Mobile Support - Responsive Design
+- Converting to PWA (Progressive Web App)
 
 ## Technologies used
 

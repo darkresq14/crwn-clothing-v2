@@ -11,6 +11,7 @@ import "./index.scss";
 import { persistor, store } from "./store/store";
 import { stripePromise } from "./utils/stripe/stripe.utils";
 import ScrollToTop from "./utils/helpers/scroll-to-top.utils";
+import { register } from "./serviceWorkerRegistration";
 
 // * React 18
 // import ReactDOM from "react-dom/client";
@@ -45,6 +46,9 @@ ReactDOM.render(
   </React.StrictMode>,
   entryPoint
 );
+
+// * For PWA - change to unregister if you don't need it
+register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
