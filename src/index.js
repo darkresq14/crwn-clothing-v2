@@ -11,7 +11,8 @@ import "./index.scss";
 import { persistor, store } from "./store/store";
 import { stripePromise } from "./utils/stripe/stripe.utils";
 import ScrollToTop from "./utils/helpers/scroll-to-top.utils";
-import { unregister } from "./serviceWorkerRegistration";
+import { register } from "./serviceWorkerRegistration";
+// import { unregister } from "./serviceWorkerRegistration";
 
 // * React 18
 // import ReactDOM from "react-dom/client";
@@ -50,7 +51,8 @@ ReactDOM.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://cra.link/PWA
-unregister();
+// unregister();
+register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
