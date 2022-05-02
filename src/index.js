@@ -47,7 +47,9 @@ ReactDOM.render(
   entryPoint
 );
 
-// * For PWA - change to unregister if you don't need it
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://cra.link/PWA
 register();
 
 // If you want to start measuring performance in your app, pass a function
